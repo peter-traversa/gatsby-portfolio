@@ -7,8 +7,8 @@ class Header extends React.Component {
                 <div className="inner">
                     {/* <span className="icon major fa-cloud"></span> */}
                     <h1>Hi, I'm <strong>Peter Traversa</strong>, a Full-Stack Web Developer based in New York City</h1>
-                    <p>Accumsan feugiat mi commodo erat lorem ipsum, sed magna<br />
-                    lobortis feugiat sapien sed etiam volutpat accumsan.</p>
+                    <p>I'm an avid long-distance runner, reader, and lover of New York City<br />
+                    and I bring that same level of passion to code.</p>
                     <ul className="actions">
                         <li><a href="#one" className="button scrolly">Discover</a></li>
                     </ul>
