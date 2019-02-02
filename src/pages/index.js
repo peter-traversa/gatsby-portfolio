@@ -59,7 +59,7 @@ class Homepage extends React.Component {
                     <div className="grid-wrapper">
                         <div className="col-12">
                             <header className="major">
-                                <h2>Adipiscing amet consequat</h2>
+                                <h2>Recent Projects</h2>
                             </header>
                             <p>Ante nunc accumsan et aclacus nascetur ac ante amet sapien sed.</p>
                         </div>

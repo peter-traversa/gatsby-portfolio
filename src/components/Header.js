@@ -10,7 +10,7 @@ class Header extends React.Component {
                     <p>I'm an avid long-distance runner, reader, and lover of New York City<br />
                     and I bring that same level of passion to code.</p>
                     <ul className="actions">
-                        <li><a href="#one" className="button scrolly">Discover</a></li>
+                        <li><a href="#one" className="button scrolly">Learn More</a></li>
                     </ul>
                 </div>
             </section>
