@@ -5,7 +5,7 @@ import Layout from '../components/layout';
 
 import pic01 from '../assets/images/pic01.jpg';
 import BookYourHeartOut from '../assets/images/BookYourHeartOut.png';
-import pic03 from '../assets/images/pic03.jpg';
+import MemoryCardGame from '../assets/images/memorycardgame.png';
 import pic04 from '../assets/images/pic04.jpg';
 
 class Homepage extends React.Component {
@@ -69,15 +69,15 @@ class Homepage extends React.Component {
                             <h3>Book Your Heart Out</h3>
                             <p>A Ruby on Rails Application for Actors and Bookers to create bookings and schedule appointments.</p>
                             <ul className="actions">
-                                <li><a href="#" className="button">GitHub Link</a></li>
+                                <li><a href="https://github.com/peter-traversa/actors-roles-producers-market" className="button">GitHub Link</a></li>
                             </ul>
                         </div>
                         <div className="col-4">
-                            <span className="image fit"><img src={pic03} alt="" /></span>
-                            <h3>Magna feugiat lorem</h3>
-                            <p>Adipiscing a commodo ante nunc magna lorem et interdum mi ante nunc lobortis non amet vis sed volutpat et nascetur.</p>
+                            <span className="image fit"><img src={MemoryCardGame} alt="" /></span>
+                            <h3>Memory Card Game</h3>
+                            <p>A Vanilla JavaScript application memory game with multiple card decks.</p>
                             <ul className="actions">
-                                <li><a href="#" className="button">More</a></li>
+                                <li><a href="https://github.com/Jessicalong627/herculesGameFrontend" className="button">GitHub Link</a></li>
                             </ul>
                         </div>
                         <div className="col-4">
