@@ -3,10 +3,10 @@ import Helmet from "react-helmet";
 
 import Layout from '../components/layout';
 
-import pic01 from '../assets/images/pic01.jpg'
-import pic02 from '../assets/images/pic02.jpg'
-import pic03 from '../assets/images/pic03.jpg'
-import pic04 from '../assets/images/pic04.jpg'
+import pic01 from '../assets/images/pic01.jpg';
+import BookYourHeartOut from '../assets/images/BookYourHeartOut.png';
+import MemoryCardGame from '../assets/images/memorycardgame.png';
+import StreetSeen from '../assets/images/StreetSeen.png';
 
 class Homepage extends React.Component {
     render() {
@@ -59,33 +59,33 @@ class Homepage extends React.Component {
                     <div className="grid-wrapper">
                         <div className="col-12">
                             <header className="major">
-                                <h2>Adipiscing amet consequat</h2>
+                                <h2>Recent Projects</h2>
                             </header>
-                            <p>Ante nunc accumsan et aclacus nascetur ac ante amet sapien sed.</p>
+                            <p>A small selection of projects I've recently worked on, both solo and team-built.</p>
                         </div>
 
                         <div className="col-4">
-                            <span className="image fit"><img src={pic02} alt="" /></span>
-                            <h3>Magna feugiat lorem</h3>
-                            <p>Adipiscing a commodo ante nunc magna lorem et interdum mi ante nunc lobortis non amet vis sed volutpat et nascetur.</p>
+                            <span className="image fit"><img src={BookYourHeartOut} alt="Book Your Heart Out Cover Page" /></span>
+                            <h3>Book Your Heart Out</h3>
+                            <p>A Ruby on Rails Application for Actors and Bookers to create bookings and schedule appointments.</p>
                             <ul className="actions">
-                                <li><a href="#" className="button">More</a></li>
+                                <li><a href="https://github.com/peter-traversa/actors-roles-producers-market" className="button">GitHub Link</a></li>
                             </ul>
                         </div>
                         <div className="col-4">
-                            <span className="image fit"><img src={pic03} alt="" /></span>
-                            <h3>Magna feugiat lorem</h3>
-                            <p>Adipiscing a commodo ante nunc magna lorem et interdum mi ante nunc lobortis non amet vis sed volutpat et nascetur.</p>
+                            <span className="image fit"><img src={MemoryCardGame} alt="" /></span>
+                            <h3>Memory Card Game</h3>
+                            <p>A Vanilla JavaScript application memory game with multiple card decks.</p>
                             <ul className="actions">
-                                <li><a href="#" className="button">More</a></li>
+                                <li><a href="https://github.com/Jessicalong627/herculesGameFrontend" className="button">GitHub Link</a></li>
                             </ul>
                         </div>
                         <div className="col-4">
-                            <span className="image fit"><img src={pic04} alt="" /></span>
-                            <h3>Magna feugiat lorem</h3>
-                            <p>Adipiscing a commodo ante nunc magna lorem et interdum mi ante nunc lobortis non amet vis sed volutpat et nascetur.</p>
+                            <span className="image fit"><img src={StreetSeen} alt="" /></span>
+                            <h3>Street Seen</h3>
+                            <p>A React application with a Rails backend and Leaflet map for the collecting of street art photography.</p>
                             <ul className="actions">
-                                <li><a href="#" className="button">More</a></li>
+                                <li><a href="https://github.com/peter-traversa/street-seen" className="button">GitHub Link</a></li>
                             </ul>
                         </div>
 
