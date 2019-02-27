@@ -6,7 +6,7 @@ import Layout from '../components/layout';
 import pic01 from '../assets/images/pic01.jpg';
 import BookYourHeartOut from '../assets/images/BookYourHeartOut.png';
 import MemoryCardGame from '../assets/images/memorycardgame.png';
-import pic04 from '../assets/images/pic04.jpg';
+import StreetSeen from '../assets/images/StreetSeen.png';
 
 class Homepage extends React.Component {
     render() {
@@ -81,11 +81,11 @@ class Homepage extends React.Component {
                             </ul>
                         </div>
                         <div className="col-4">
-                            <span className="image fit"><img src={pic04} alt="" /></span>
-                            <h3>Magna feugiat lorem</h3>
-                            <p>Adipiscing a commodo ante nunc magna lorem et interdum mi ante nunc lobortis non amet vis sed volutpat et nascetur.</p>
+                            <span className="image fit"><img src={StreetSeen} alt="" /></span>
+                            <h3>Street Seen</h3>
+                            <p>A React application with a Rails backend and Leaflet map for the collecting of street art photography.</p>
                             <ul className="actions">
-                                <li><a href="#" className="button">More</a></li>
+                                <li><a href="https://github.com/peter-traversa/street-seen" className="button">GitHub Link</a></li>
                             </ul>
                         </div>
 
