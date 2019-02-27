@@ -3,10 +3,10 @@ import Helmet from "react-helmet";
 
 import Layout from '../components/layout';
 
-import pic01 from '../assets/images/pic01.jpg'
-import pic02 from '../assets/images/pic02.jpg'
-import pic03 from '../assets/images/pic03.jpg'
-import pic04 from '../assets/images/pic04.jpg'
+import pic01 from '../assets/images/pic01.jpg';
+import BookYourHeartOut from '../assets/images/BookYourHeartOut.png';
+import pic03 from '../assets/images/pic03.jpg';
+import pic04 from '../assets/images/pic04.jpg';
 
 class Homepage extends React.Component {
     render() {
@@ -61,15 +61,15 @@ class Homepage extends React.Component {
                             <header className="major">
                                 <h2>Recent Projects</h2>
                             </header>
-                            <p>Ante nunc accumsan et aclacus nascetur ac ante amet sapien sed.</p>
+                            <p>A small selection of projects I've recently worked on, both solo and team-built.</p>
                         </div>
 
                         <div className="col-4">
-                            <span className="image fit"><img src={pic02} alt="" /></span>
-                            <h3>Magna feugiat lorem</h3>
-                            <p>Adipiscing a commodo ante nunc magna lorem et interdum mi ante nunc lobortis non amet vis sed volutpat et nascetur.</p>
+                            <span className="image fit"><img src={BookYourHeartOut} alt="Book Your Heart Out Cover Page" /></span>
+                            <h3>Book Your Heart Out</h3>
+                            <p>A Ruby on Rails Application for Actors and Bookers to create bookings and schedule appointments.</p>
                             <ul className="actions">
-                                <li><a href="#" className="button">More</a></li>
+                                <li><a href="#" className="button">GitHub Link</a></li>
                             </ul>
                         </div>
                         <div className="col-4">
