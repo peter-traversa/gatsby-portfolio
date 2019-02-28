@@ -65,11 +65,11 @@ class Homepage extends React.Component {
                         </div>
 
                         <div className="col-4">
-                            <span className="image fit"><img src={BookYourHeartOut} alt="Book Your Heart Out Cover Page" /></span>
-                            <h3>Book Your Heart Out</h3>
-                            <p>A Ruby on Rails Application for Actors and Bookers to create bookings and schedule appointments.</p>
+                            <span className="image fit"><img src={StreetSeen} alt="" /></span>
+                            <h3>Street Seen</h3>
+                            <p>A React application with a Rails backend and Leaflet map for the collecting of street art photography.</p>
                             <ul className="actions">
-                                <li><a href="https://github.com/peter-traversa/actors-roles-producers-market" className="button">GitHub Link</a></li>
+                                <li><a href="https://github.com/peter-traversa/street-seen" className="button">GitHub Link</a></li>
                             </ul>
                         </div>
                         <div className="col-4">
@@ -81,14 +81,13 @@ class Homepage extends React.Component {
                             </ul>
                         </div>
                         <div className="col-4">
-                            <span className="image fit"><img src={StreetSeen} alt="" /></span>
-                            <h3>Street Seen</h3>
-                            <p>A React application with a Rails backend and Leaflet map for the collecting of street art photography.</p>
+                            <span className="image fit"><img src={BookYourHeartOut} alt="Book Your Heart Out Cover Page" /></span>
+                            <h3>Book Your Heart Out</h3>
+                            <p>A Ruby on Rails Application for Actors and Bookers to create bookings and schedule appointments.</p>
                             <ul className="actions">
-                                <li><a href="https://github.com/peter-traversa/street-seen" className="button">GitHub Link</a></li>
+                                <li><a href="https://github.com/peter-traversa/actors-roles-producers-market" className="button">GitHub Link</a></li>
                             </ul>
                         </div>
-
                     </div>
                 </section>
 
