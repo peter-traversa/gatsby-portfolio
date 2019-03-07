@@ -207,11 +207,18 @@
 		width: 100vw;
 	}
 
-	#blog-page {
+	#blog-title {
 		background-color: darkcyan;
 		text-align: center;
 		-webkit-text-fill-color: lightblue;
 		padding: 1em;
+	}
+
+	#blog-page {
+		background-color: darkcyan;
+		padding: 1em;
+		display: flex;
+		justify-items: auto;
 	}
 
 
