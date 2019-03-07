@@ -10,9 +10,12 @@ class BlogPage extends React.Component {
     return (
       <>
         <Navbar />
-        <section id="one" className="main style2">
-          <h1>Hello from the blog page</h1>
-        </section>
+        <div id="blog-page">
+          <div id="blog-title">
+            <h1>Recent Blogs</h1>
+          </div>
+
+        </div>
         <Footer />
       </>
     )

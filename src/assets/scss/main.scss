@@ -195,6 +195,26 @@
 		text-align: center;
 	}
 
+	.resume {
+		background-color: darkcyan;
+		text-align: center;
+		-webkit-text-fill-color: lightblue;
+		padding: 1em;
+	}
+
+	.iframe {
+		height: 100vh;
+		width: 100vw;
+	}
+
+	#blog-page {
+		background-color: darkcyan;
+		text-align: center;
+		-webkit-text-fill-color: lightblue;
+		padding: 1em;
+	}
+
+
 	header {
 		p {
 			color: _palette(fg-light);
