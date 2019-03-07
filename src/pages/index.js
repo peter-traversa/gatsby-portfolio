@@ -35,8 +35,8 @@ class Homepage extends React.Component {
                     <div className="grid-wrapper">
                         <div className="col-6">
                             <ul className="major-icons">
-                                <li><span className="icon style1 major fa-code"></span></li>
-                                <li><span className="icon style2 major fa-bolt"></span></li>
+                                <li><span className="icon style1 major fa-html5"></span></li>
+                                <li><span className="icon style2 major fa-css3"></span></li>
                                 <li><span className="icon style3 major fa-camera-retro"></span></li>
                                 <li><span className="icon style4 major fa-cog"></span></li>
                                 <li><span className="icon style5 major fa-desktop"></span></li>
@@ -88,19 +88,6 @@ class Homepage extends React.Component {
                                 <li><a href="https://github.com/peter-traversa/actors-roles-producers-market" className="button">GitHub Link</a></li>
                             </ul>
                         </div>
-                    </div>
-                </section>
-
-                <section id="four" className="main style2 special">
-                    <div className="container">
-                        <header className="major">
-                            <h2>Ipsum feugiat consequat?</h2>
-                        </header>
-                        <p>Sed lacus nascetur ac ante amet sapien.</p>
-                        <ul className="actions uniform">
-                            <li><a href="#" className="button special">Sign Up</a></li>
-                            <li><a href="#" className="button">Learn More</a></li>
-                        </ul>
                     </div>
                 </section>
             </Layout>
