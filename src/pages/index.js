@@ -10,7 +10,7 @@ import StreetSeen from '../assets/images/StreetSeen.png';
 
 class Homepage extends React.Component {
     render() {
-        const siteTitle = "Gatsby Starter - Photon";
+        const siteTitle = "Peter Traversa Portfolio";
 
         return (
             <Layout>
