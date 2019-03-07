@@ -188,6 +188,13 @@
 		}
 	}
 
+	#navbar {
+		background-color: darkcyan;
+		display: flex;
+		justify-content: space-around;
+		text-align: center;
+	}
+
 	header {
 		p {
 			color: _palette(fg-light);

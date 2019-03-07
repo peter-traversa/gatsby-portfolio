@@ -6,8 +6,9 @@ class Navbar extends React.Component {
     return (
       <>
         <section id="navbar">
-          <Link to="/">Home</Link>{"  "}
-          <Link to="/blog">Blog</Link>
+          <Link to="/" style={{ color: "white" }} activeStyle={{ color: "gray"}}>Home</Link>{"  "}
+          <Link to="/blog" style={{ color: "white" }} activeStyle={{ color: "gray"}}>Blog</Link>{"  "}
+          <Link to="/resume" style={{ color: "white" }} activeStyle={{ color: "gray"}}>Resume</Link>
         </section>
       </>
     )
