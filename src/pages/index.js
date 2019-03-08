@@ -7,7 +7,7 @@ import pic01 from '../assets/images/pic01.jpg';
 import BookYourHeartOut from '../assets/images/BookYourHeartOut.png';
 import MemoryCardGame from '../assets/images/memorycardgame.png';
 import StreetSeen from '../assets/images/StreetSeen.png';
-import { DiReact, DiJavascript } from 'react-icons/di'
+import { DiReact, DiJavascript, DiHtml5, DiCss3, DiGithub, DiRuby } from 'react-icons/di'
 
 class Homepage extends React.Component {
     render() {
@@ -36,12 +36,12 @@ class Homepage extends React.Component {
                     <div className="grid-wrapper">
                         <div className="col-6">
                             <ul className="major-icons">
-                                <li><span className="icon style1 major"><DiJavascript size={70} rotate={-45} /></span></li>
-                                <li><span className="icon style2 major"><DiReact /></span></li>
-                                <li><span className="icon style3 major"></span></li>
-                                <li><span className="icon style4 major"></span></li>
-                                <li><span className="icon style5 major"></span></li>
-                                <li><span className="icon style6 major"></span></li>
+                                <li><span className="icon"><DiJavascript color={'green'} /></span></li>
+                                <li><span className="icon"><DiReact color={'lightblue'} /></span></li>
+                                <li><span className="icon"><DiHtml5 color={'red'} /></span></li>
+                                <li><span className="icon"><DiCss3 color={'blue'} /></span></li>
+                                <li><span className="icon"><DiRuby color={'red'} /></span></li>
+                                <li><span className="icon"><DiGithub color={'black'} /></span></li>
                             </ul>
                         </div>
                         <div className="col-6">

@@ -1,8 +1,7 @@
 import React from 'react';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
-import { Card } from '@material-ui/core';
-import { CardHeader } from '@material-ui/core';
+import BlogCard from '../components/BlogCard';
 
 class BlogPage extends React.Component {
   constructor() {
@@ -18,10 +17,6 @@ class BlogPage extends React.Component {
     .then(blogs => this.setState({blogs: blogs.items}));
   }
 
-  handleCardClick(e) {
-    console.log(e.target);
-  }
-
   render() {
     return (
       <>
@@ -31,9 +26,7 @@ class BlogPage extends React.Component {
           </div>
           <div id="blog-page">
             {this.state.blogs.map((blog, idx) =>
-              <Card id={blog.url} onClick={this.handleCardClick} >
-                <CardHeader title={`${blog.title}`} />
-              </Card>
+              <BlogCard key={idx} blog={blog} />
             )}
           </div>
         <Footer />
