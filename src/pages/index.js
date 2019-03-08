@@ -70,7 +70,7 @@ class Homepage extends React.Component {
                             <h3>Street Seen</h3>
                             <p>A React application with a Rails backend and Leaflet map for the collecting of street art photography.</p>
                             <ul className="actions">
-                                <li><a href="https://github.com/peter-traversa/street-seen" className="button">GitHub Link</a></li>
+                                <li><a href="https://github.com/peter-traversa/street-seen" target="_blank" className="button">GitHub Link</a></li>
                             </ul>
                         </div>
                         <div className="col-4">
@@ -78,7 +78,7 @@ class Homepage extends React.Component {
                             <h3>Memory Card Game</h3>
                             <p>A Vanilla JavaScript application memory game with multiple card decks.</p>
                             <ul className="actions">
-                                <li><a href="https://github.com/Jessicalong627/herculesGameFrontend" className="button">GitHub Link</a></li>
+                                <li><a href="https://github.com/Jessicalong627/herculesGameFrontend" target="_blank" className="button">GitHub Link</a></li>
                             </ul>
                         </div>
                         <div className="col-4">
@@ -86,7 +86,7 @@ class Homepage extends React.Component {
                             <h3>Book Your Heart Out</h3>
                             <p>A Ruby on Rails Application for Actors and Bookers to create bookings and schedule appointments.</p>
                             <ul className="actions">
-                                <li><a href="https://github.com/peter-traversa/actors-roles-producers-market" className="button">GitHub Link</a></li>
+                                <li><a href="https://github.com/peter-traversa/actors-roles-producers-market" target="_blank" className="button">GitHub Link</a></li>
                             </ul>
                         </div>
                     </div>
