@@ -33,9 +33,12 @@ function SimpleCard(props) {
         <Typography variant="h5" component="h2" textalign="center" >
           {props.blog.title}
         </Typography>
+        <Typography variant="h5" component="p" textalign="left" >
+          Published - {props.blog.pubDate}
+        </Typography>
       </CardContent>
       <CardContent align='center'>
-        <Button variant="contained" href={props.blog.link} target="_blank" className={classes.button}>
+        <Button variant="contained" href={props.blog.link} target="_blank" rel="noopener noreferrer"className={classes.button}>
           <FaMedium />
         </Button>
       </CardContent>
