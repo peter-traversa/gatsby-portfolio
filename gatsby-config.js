@@ -27,8 +27,10 @@ module.exports = {
         icon: 'src/assets/images/website-icon.png', // This path is relative to the root of the site.
       },
     },
+    {
+      resolve: `gatsby-plugin-material-ui`,
+    },
     'gatsby-plugin-sass',
     'gatsby-plugin-offline',
-    'gatsby-plugin-material-ui',
   ],
 }

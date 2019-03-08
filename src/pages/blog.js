@@ -1,12 +1,23 @@
 import React from 'react';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
-import { Card } from '@material-ui/core';
-import { CardHeader } from '@material-ui/core';
+import BlogCard from '../components/BlogCard';
 
 class BlogPage extends React.Component {
+  constructor() {
+    super();
+    this.state = {
+      blogs: [],
+    }
+  }
+
+  componentDidMount() {
+    fetch('https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@peter.traversa')
+    .then(res => res.json())
+    .then(blogs => this.setState({blogs: blogs.items}));
+  }
+
   render() {
-    const pageTitle = "Peter Traversa Blog Posts"
     return (
       <>
         <Navbar />
@@ -14,7 +25,9 @@ class BlogPage extends React.Component {
             <h1>Recent Blogs</h1>
           </div>
           <div id="blog-page">
-
+            {this.state.blogs.map((blog, idx) =>
+              <BlogCard key={idx} blog={blog} />
+            )}
           </div>
         <Footer />
       </>
