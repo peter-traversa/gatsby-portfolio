@@ -14,7 +14,7 @@ class BlogPage extends React.Component {
   componentDidMount() {
     fetch('https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@peter.traversa')
     .then(res => res.json())
-    .then(blogs => this.setState({blogs: blogs.items}));
+    .then(data => this.setState({blogs: data.items}));
   }
 
   render() {
