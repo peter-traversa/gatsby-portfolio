@@ -7,7 +7,7 @@ import pic01 from '../assets/images/pic01.jpg';
 import BookYourHeartOut from '../assets/images/BookYourHeartOut.png';
 import MemoryCardGame from '../assets/images/memorycardgame.png';
 import StreetSeen from '../assets/images/StreetSeen.png';
-import { DiReact, DiJavascript, DiHtml5, DiCss3, DiGithub, DiRuby } from 'react-icons/di'
+import { DiReact, DiNodejsSmall, DiHtml5, DiCss3, DiGithub, DiRuby } from 'react-icons/di'
 
 class Homepage extends React.Component {
     render() {
@@ -36,12 +36,12 @@ class Homepage extends React.Component {
                     <div className="grid-wrapper">
                         <div className="col-6">
                             <ul className="major-icons">
-                                <li><span className="icon"><DiJavascript color={'green'} /></span></li>
-                                <li><span className="icon"><DiReact color={'lightblue'} /></span></li>
-                                <li><span className="icon"><DiHtml5 color={'red'} /></span></li>
-                                <li><span className="icon"><DiCss3 color={'blue'} /></span></li>
-                                <li><span className="icon"><DiRuby color={'red'} /></span></li>
-                                <li><span className="icon"><DiGithub color={'black'} /></span></li>
+                                <li><DiNodejsSmall color={'green'} size={'8em'} /></li>
+                                <li><DiReact color={'lightblue'} size={'8em'} /></li>
+                                <li><DiHtml5 color={'red'} size={'8em'} /></li>
+                                <li><DiCss3 color={'blue'} size={'8em'} /></li>
+                                <li><DiRuby color={'red'} size={'8em'} /></li>
+                                <li><DiGithub color={'black'} size={'8em'} /></li>
                             </ul>
                         </div>
                         <div className="col-6">
@@ -70,7 +70,7 @@ class Homepage extends React.Component {
                             <h3>Street Seen</h3>
                             <p>A React application with a Rails backend and Leaflet map for the collecting of street art photography.</p>
                             <ul className="actions">
-                                <li><a href="https://github.com/peter-traversa/street-seen" className="button">GitHub Link</a></li>
+                                <li><a href="https://github.com/peter-traversa/street-seen" target="_blank" rel="noopener noreferrer" className="button">GitHub Link</a></li>
                             </ul>
                         </div>
                         <div className="col-4">
@@ -78,7 +78,7 @@ class Homepage extends React.Component {
                             <h3>Memory Card Game</h3>
                             <p>A Vanilla JavaScript application memory game with multiple card decks.</p>
                             <ul className="actions">
-                                <li><a href="https://github.com/Jessicalong627/herculesGameFrontend" className="button">GitHub Link</a></li>
+                                <li><a href="https://github.com/Jessicalong627/herculesGameFrontend" target="_blank" rel="noopener noreferrer" className="button">GitHub Link</a></li>
                             </ul>
                         </div>
                         <div className="col-4">
@@ -86,7 +86,7 @@ class Homepage extends React.Component {
                             <h3>Book Your Heart Out</h3>
                             <p>A Ruby on Rails Application for Actors and Bookers to create bookings and schedule appointments.</p>
                             <ul className="actions">
-                                <li><a href="https://github.com/peter-traversa/actors-roles-producers-market" className="button">GitHub Link</a></li>
+                                <li><a href="https://github.com/peter-traversa/actors-roles-producers-market" target="_blank" rel="noopener noreferrer" className="button">GitHub Link</a></li>
                             </ul>
                         </div>
                     </div>

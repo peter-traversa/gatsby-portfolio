@@ -2,6 +2,7 @@ import React from 'react';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import BlogCard from '../components/BlogCard';
+import Grid from '@material-ui/core/grid';
 
 class BlogPage extends React.Component {
   constructor() {
@@ -14,7 +15,7 @@ class BlogPage extends React.Component {
   componentDidMount() {
     fetch('https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@peter.traversa')
     .then(res => res.json())
-    .then(blogs => this.setState({blogs: blogs.items}));
+    .then(data => this.setState({blogs: data.items}));
   }
 
   render() {
@@ -25,9 +26,13 @@ class BlogPage extends React.Component {
             <h1>Recent Blogs</h1>
           </div>
           <div id="blog-page">
-            {this.state.blogs.map((blog, idx) =>
-              <BlogCard key={idx} blog={blog} />
-            )}
+            <Grid container spacing={16} justify={'space-around'}>
+              {this.state.blogs.map((blog, idx) =>
+                <Grid item key={idx} width={'30%'} >
+                  <BlogCard blog={blog} />
+                </Grid>
+              )}
+            </Grid>
           </div>
         <Footer />
       </>
