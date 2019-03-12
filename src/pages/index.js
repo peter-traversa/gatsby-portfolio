@@ -7,7 +7,7 @@ import pic01 from '../assets/images/pic01.jpg';
 import BookYourHeartOut from '../assets/images/BookYourHeartOut.png';
 import MemoryCardGame from '../assets/images/memorycardgame.png';
 import StreetSeen from '../assets/images/StreetSeen.png';
-import { DiReact, DiJavascript, DiHtml5, DiCss3, DiGithub, DiRuby } from 'react-icons/di'
+import { DiReact, DiNodejsSmall, DiHtml5, DiCss3, DiGithub, DiRuby } from 'react-icons/di'
 
 class Homepage extends React.Component {
     render() {
@@ -36,7 +36,7 @@ class Homepage extends React.Component {
                     <div className="grid-wrapper">
                         <div className="col-6">
                             <ul className="major-icons">
-                                <li><DiJavascript color={'green'} size={'8em'} /></li>
+                                <li><DiNodejsSmall color={'green'} size={'8em'} /></li>
                                 <li><DiReact color={'lightblue'} size={'8em'} /></li>
                                 <li><DiHtml5 color={'red'} size={'8em'} /></li>
                                 <li><DiCss3 color={'blue'} size={'8em'} /></li>
