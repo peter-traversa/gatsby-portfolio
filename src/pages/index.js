@@ -2,6 +2,7 @@ import React from "react";
 import Helmet from "react-helmet";
 
 import Layout from '../components/layout';
+import { Grid } from '@material-ui/core';
 
 import pic01 from '../assets/images/pic01.jpg';
 import BookYourHeartOut from '../assets/images/BookYourHeartOut.png';
@@ -38,19 +39,18 @@ class Homepage extends React.Component {
                 </section>
 
                 <section id="two" className="main style2">
-                    <div className="grid-wrapper">
-                        <div className="col-6">
-                            <ul className="dev-icons">
-                                <li><img src={javascript} alt={'javascript logo'}></img></li>
-                                <li><img src={react} alt={'react logo'}></img></li>
-                                <li><img src={html5} alt={'html5 logo'}></img></li>
-                                <li><img src={css3} alt={'css3 logo'}></img></li>
-                                <li><img src={ruby} alt={'ruby logo'}></img></li>
-                                <li><img src={github} alt={'github logo'}></img></li>
-
-                            </ul>
-                        </div>
-                        <div className="col-6">
+                    <Grid container spacing={16}>
+                        <Grid item>
+                            <Grid container spacing={8}>
+                                <img src={javascript} alt={'javascript logo'}></img>
+                                <img src={react} alt={'react logo'}></img>
+                                <img src={html5} alt={'html5 logo'}></img>
+                                <img src={css3} alt={'css3 logo'}></img>
+                                <img src={ruby} alt={'ruby logo'}></img>
+                                <img src={github} alt={'github logo'}></img>
+                            </Grid>
+                        </Grid>
+                        <Grid item>
                             <header className="major">
                                 <h2>Lorem ipsum dolor adipiscing<br />
                                 amet dolor consequat</h2>
@@ -58,8 +58,8 @@ class Homepage extends React.Component {
                             <p>Adipiscing a commodo ante nunc accumsan interdum mi ante adipiscing. A nunc lobortis non nisl amet vis volutpat aclacus nascetur ac non. Lorem curae eu ante amet sapien in tempus ac. Adipiscing id accumsan adipiscing ipsum.</p>
                             <p>Blandit faucibus proin. Ac aliquam integer adipiscing enim non praesent vis commodo nunc phasellus cubilia ac risus accumsan. Accumsan blandit. Lobortis phasellus non lobortis dit varius mi varius accumsan lobortis. Blandit ante aliquam lacinia lorem lobortis semper morbi col faucibus vitae integer placerat accumsan orci eu mi odio tempus adipiscing adipiscing adipiscing curae consequat feugiat etiam dolore.</p>
                             <p>Adipiscing a commodo ante nunc accumsan interdum mi ante adipiscing. A nunc lobortis non nisl amet vis volutpat aclacus nascetur ac non. Lorem curae eu ante amet sapien in tempus ac. Adipiscing id accumsan adipiscing ipsum.</p>
-                        </div>
-                    </div>
+                        </Grid>
+                    </Grid>
                 </section>
 
                 <section id="three" className="main style1 special">
