@@ -21,6 +21,7 @@ class Homepage extends React.Component {
         return (
             <Layout>
                 <Helmet title={siteTitle} />
+                <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css"></link>
                 <section id="one" className="main style1">
                     <div className="grid-wrapper">
                         <div className="col-6">
@@ -39,16 +40,18 @@ class Homepage extends React.Component {
                 <section id="two" className="main style2">
                     <div className="grid-wrapper">
                         <div className='col-6'>
-                            <ul className="major-icons">
-                            <li><span className="icon style1 major fa-code"></span></li>
-                                <li><span className="icon style2 major fa-bolt"></span></li>
-                                <li><span className="icon style3 major fa-camera-retro"></span></li>
-                                <li><span className="icon style4 major fa-cog"></span></li>
-                                <li><span className="icon style5 major fa-desktop"></span></li>
-                                <li><span className="icon style6 major fa-calendar"></span></li>
-                            </ul>
+                            <div>
+                                <i class="devicon-javascript-plain colored devicons"></i>
+                                <i class="devicon-react-original colored devicons"></i>
+                                <i class="devicon-ruby-plain colored devicons"></i>
+                            </div>
+                            <div>
+                                <i class="devicon-git-plain colored devicons"></i>
+                                <i class="devicon-html5-plain colored devicons"></i>
+                                <i class="devicon-css3-plain colored devicons"></i>
+                            </div>
                         </div>
-                        <div className='col-12'>
+                        <div className='col-6'>
                             <header className="major">
                                 <h2>Lorem ipsum dolor adipiscing<br />
                                 amet dolor consequat</h2>
