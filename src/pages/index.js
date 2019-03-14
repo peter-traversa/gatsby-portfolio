@@ -7,16 +7,21 @@ import pic01 from '../assets/images/pic01.jpg';
 import BookYourHeartOut from '../assets/images/BookYourHeartOut.png';
 import MemoryCardGame from '../assets/images/memorycardgame.png';
 import StreetSeen from '../assets/images/StreetSeen.png';
-import { DiReact, DiNodejsSmall, DiHtml5, DiCss3, DiGithub, DiRuby } from 'react-icons/di'
 
 class Homepage extends React.Component {
     render() {
         const siteTitle = "Peter Traversa Portfolio";
+        const styles = theme => ({
+            container: {
+                display: 'grid',
+
+            }
+        })
 
         return (
             <Layout>
                 <Helmet title={siteTitle} />
-
+                <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css"></link>
                 <section id="one" className="main style1">
                     <div className="grid-wrapper">
                         <div className="col-6">
@@ -34,17 +39,19 @@ class Homepage extends React.Component {
 
                 <section id="two" className="main style2">
                     <div className="grid-wrapper">
-                        <div className="col-6">
-                            <ul className="major-icons">
-                                <li><DiNodejsSmall color={'green'} size={'8em'} /></li>
-                                <li><DiReact color={'lightblue'} size={'8em'} /></li>
-                                <li><DiHtml5 color={'red'} size={'8em'} /></li>
-                                <li><DiCss3 color={'blue'} size={'8em'} /></li>
-                                <li><DiRuby color={'red'} size={'8em'} /></li>
-                                <li><DiGithub color={'black'} size={'8em'} /></li>
-                            </ul>
+                        <div className='col-6'>
+                            <div>
+                                <i class="devicon-javascript-plain colored devicons"></i>
+                                <i class="devicon-react-original colored devicons"></i>
+                                <i class="devicon-ruby-plain colored devicons"></i>
+                            </div>
+                            <div>
+                                <i class="devicon-git-plain colored devicons"></i>
+                                <i class="devicon-html5-plain colored devicons"></i>
+                                <i class="devicon-css3-plain colored devicons"></i>
+                            </div>
                         </div>
-                        <div className="col-6">
+                        <div className='col-6'>
                             <header className="major">
                                 <h2>Lorem ipsum dolor adipiscing<br />
                                 amet dolor consequat</h2>

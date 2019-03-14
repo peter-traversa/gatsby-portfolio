@@ -3,13 +3,12 @@ import { withStyles } from '@material-ui/core/styles';
 import Card from '@material-ui/core/Card';
 import CardContent from '@material-ui/core/CardContent';
 import Button from '@material-ui/core/Button';
-import { FaMedium } from 'react-icons/fa';
 
 const styles = {
   card: {
     width: 'auto',
     height: 'auto',
-    alignItems: 'center'
+    textAlign: 'center'
   },
   cardButton: {
     align: 'center',
@@ -28,7 +27,7 @@ function SimpleCard(props) {
       </CardContent>
       <CardContent className={classes.cardButton} >
         <Button variant="contained" href={props.blog.link} target="_blank" rel="noopener noreferrer"className={classes.button}>
-          <FaMedium />Medium
+        Medium
         </Button>
       </CardContent>
     </Card>
