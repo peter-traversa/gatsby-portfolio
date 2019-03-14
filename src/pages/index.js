@@ -40,16 +40,14 @@ class Homepage extends React.Component {
                 <section id="two" className="main style2">
                     <div className="grid-wrapper">
                         <div className='col-6'>
-                            <div>
-                                <i class="devicon-javascript-plain colored devicons"></i>
-                                <i class="devicon-react-original colored devicons"></i>
-                                <i class="devicon-ruby-plain colored devicons"></i>
-                            </div>
-                            <div>
-                                <i class="devicon-git-plain colored devicons"></i>
-                                <i class="devicon-html5-plain colored devicons"></i>
-                                <i class="devicon-css3-plain colored devicons"></i>
-                            </div>
+                            <ul className='major-icons'>
+                                <li><i class="devicon-javascript-plain colored devicons"></i></li>
+                                <li><i class="devicon-react-original colored devicons"></i></li>
+                                <li><i class="devicon-ruby-plain colored devicons"></i></li>
+                                <li><i class="devicon-git-plain colored devicons"></i></li>
+                                <li><i class="devicon-html5-plain colored devicons"></i></li>
+                                <li><i class="devicon-css3-plain colored devicons"></i></li>
+                            </ul>
                         </div>
                         <div className='col-6'>
                             <header className="major">
