@@ -2,18 +2,11 @@ import React from "react";
 import Helmet from "react-helmet";
 
 import Layout from '../components/layout';
-import { Grid } from '@material-ui/core';
 
 import pic01 from '../assets/images/pic01.jpg';
 import BookYourHeartOut from '../assets/images/BookYourHeartOut.png';
 import MemoryCardGame from '../assets/images/memorycardgame.png';
 import StreetSeen from '../assets/images/StreetSeen.png';
-import css3 from '../assets/images/css3-original.svg';
-import html5 from '../assets/images/html5-original.svg';
-import javascript from '../assets/images/javascript-plain.svg';
-import github from '../assets/images/github-original.svg';
-import react from '../assets/images/react-original.svg';
-import ruby from '../assets/images/ruby-original.svg';
 
 class Homepage extends React.Component {
     render() {
@@ -21,14 +14,13 @@ class Homepage extends React.Component {
         const styles = theme => ({
             container: {
                 display: 'grid',
-                
+
             }
         })
 
         return (
             <Layout>
                 <Helmet title={siteTitle} />
-
                 <section id="one" className="main style1">
                     <div className="grid-wrapper">
                         <div className="col-6">
@@ -45,18 +37,18 @@ class Homepage extends React.Component {
                 </section>
 
                 <section id="two" className="main style2">
-                    <Grid container spacing={16}>
-                        <Grid item>
-                            <Grid container spacing={8}>
-                                <img src={javascript} alt={'javascript logo'}></img>
-                                <img src={react} alt={'react logo'}></img>
-                                <img src={html5} alt={'html5 logo'}></img>
-                                <img src={css3} alt={'css3 logo'}></img>
-                                <img src={ruby} alt={'ruby logo'}></img>
-                                <img src={github} alt={'github logo'}></img>
-                            </Grid>
-                        </Grid>
-                        <Grid item>
+                    <div className="grid-wrapper">
+                        <div className='col-6'>
+                            <ul className="major-icons">
+                            <li><span className="icon style1 major fa-code"></span></li>
+                                <li><span className="icon style2 major fa-bolt"></span></li>
+                                <li><span className="icon style3 major fa-camera-retro"></span></li>
+                                <li><span className="icon style4 major fa-cog"></span></li>
+                                <li><span className="icon style5 major fa-desktop"></span></li>
+                                <li><span className="icon style6 major fa-calendar"></span></li>
+                            </ul>
+                        </div>
+                        <div className='col-12'>
                             <header className="major">
                                 <h2>Lorem ipsum dolor adipiscing<br />
                                 amet dolor consequat</h2>
@@ -64,8 +56,8 @@ class Homepage extends React.Component {
                             <p>Adipiscing a commodo ante nunc accumsan interdum mi ante adipiscing. A nunc lobortis non nisl amet vis volutpat aclacus nascetur ac non. Lorem curae eu ante amet sapien in tempus ac. Adipiscing id accumsan adipiscing ipsum.</p>
                             <p>Blandit faucibus proin. Ac aliquam integer adipiscing enim non praesent vis commodo nunc phasellus cubilia ac risus accumsan. Accumsan blandit. Lobortis phasellus non lobortis dit varius mi varius accumsan lobortis. Blandit ante aliquam lacinia lorem lobortis semper morbi col faucibus vitae integer placerat accumsan orci eu mi odio tempus adipiscing adipiscing adipiscing curae consequat feugiat etiam dolore.</p>
                             <p>Adipiscing a commodo ante nunc accumsan interdum mi ante adipiscing. A nunc lobortis non nisl amet vis volutpat aclacus nascetur ac non. Lorem curae eu ante amet sapien in tempus ac. Adipiscing id accumsan adipiscing ipsum.</p>
-                        </Grid>
-                    </Grid>
+                        </div>
+                    </div>
                 </section>
 
                 <section id="three" className="main style1 special">
