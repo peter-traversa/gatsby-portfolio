@@ -9,7 +9,7 @@ const styles = {
   card: {
     width: 'auto',
     height: 'auto',
-    alignItems: 'center'
+    textAlign: 'center'
   },
   cardButton: {
     align: 'center',
@@ -28,7 +28,7 @@ function SimpleCard(props) {
       </CardContent>
       <CardContent className={classes.cardButton} >
         <Button variant="contained" href={props.blog.link} target="_blank" rel="noopener noreferrer"className={classes.button}>
-          <FaMedium />Medium
+          <FaMedium />{"  "}Medium
         </Button>
       </CardContent>
     </Card>

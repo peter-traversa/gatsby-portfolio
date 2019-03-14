@@ -7,7 +7,12 @@ import pic01 from '../assets/images/pic01.jpg';
 import BookYourHeartOut from '../assets/images/BookYourHeartOut.png';
 import MemoryCardGame from '../assets/images/memorycardgame.png';
 import StreetSeen from '../assets/images/StreetSeen.png';
-import { DiReact, DiNodejsSmall, DiHtml5, DiCss3, DiGithub, DiRuby } from 'react-icons/di'
+import css3 from '../assets/images/css3-original.svg';
+import html5 from '../assets/images/html5-original.svg';
+import javascript from '../assets/images/javascript-plain.svg';
+import github from '../assets/images/github-original.svg';
+import react from '../assets/images/react-original.svg';
+import ruby from '../assets/images/ruby-original.svg';
 
 class Homepage extends React.Component {
     render() {
@@ -35,13 +40,14 @@ class Homepage extends React.Component {
                 <section id="two" className="main style2">
                     <div className="grid-wrapper">
                         <div className="col-6">
-                            <ul className="major-icons">
-                                <li><DiNodejsSmall color={'green'} size={'8em'} /></li>
-                                <li><DiReact color={'lightblue'} size={'8em'} /></li>
-                                <li><DiHtml5 color={'red'} size={'8em'} /></li>
-                                <li><DiCss3 color={'blue'} size={'8em'} /></li>
-                                <li><DiRuby color={'red'} size={'8em'} /></li>
-                                <li><DiGithub color={'black'} size={'8em'} /></li>
+                            <ul className="dev-icons">
+                                <li><img src={javascript} alt={'javascript logo'}></img></li>
+                                <li><img src={react} alt={'react logo'}></img></li>
+                                <li><img src={html5} alt={'html5 logo'}></img></li>
+                                <li><img src={css3} alt={'css3 logo'}></img></li>
+                                <li><img src={ruby} alt={'ruby logo'}></img></li>
+                                <li><img src={github} alt={'github logo'}></img></li>
+
                             </ul>
                         </div>
                         <div className="col-6">

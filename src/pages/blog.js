@@ -28,7 +28,7 @@ class BlogPage extends React.Component {
           <div id="blog-page">
             <Grid container spacing={16} justify={'space-around'}>
               {this.state.blogs.map((blog, idx) =>
-                <Grid item key={idx} width={'30%'} >
+                <Grid item key={idx} >
                   <BlogCard blog={blog} />
                 </Grid>
               )}
