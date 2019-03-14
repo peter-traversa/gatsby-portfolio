@@ -11,12 +11,6 @@ import StreetSeen from '../assets/images/StreetSeen.png';
 class Homepage extends React.Component {
     render() {
         const siteTitle = "Peter Traversa Portfolio";
-        const styles = theme => ({
-            container: {
-                display: 'grid',
-
-            }
-        })
 
         return (
             <Layout>
@@ -41,12 +35,12 @@ class Homepage extends React.Component {
                     <div className="grid-wrapper">
                         <div className='col-6'>
                             <ul className='major-icons'>
-                                <li><i class="devicon-javascript-plain colored devicons"></i></li>
-                                <li><i class="devicon-react-original colored devicons"></i></li>
-                                <li><i class="devicon-ruby-plain colored devicons"></i></li>
-                                <li><i class="devicon-git-plain colored devicons"></i></li>
-                                <li><i class="devicon-html5-plain colored devicons"></i></li>
-                                <li><i class="devicon-css3-plain colored devicons"></i></li>
+                                <li><i className="devicon-javascript-plain colored devicons"></i></li>
+                                <li><i className="devicon-react-original colored devicons"></i></li>
+                                <li><i className="devicon-ruby-plain colored devicons"></i></li>
+                                <li><i className="devicon-git-plain colored devicons"></i></li>
+                                <li><i className="devicon-html5-plain colored devicons"></i></li>
+                                <li><i className="devicon-css3-plain colored devicons"></i></li>
                             </ul>
                         </div>
                         <div className='col-6'>
