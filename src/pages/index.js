@@ -18,6 +18,12 @@ import ruby from '../assets/images/ruby-original.svg';
 class Homepage extends React.Component {
     render() {
         const siteTitle = "Peter Traversa Portfolio";
+        const styles = theme => ({
+            container: {
+                display: 'grid',
+                
+            }
+        })
 
         return (
             <Layout>
