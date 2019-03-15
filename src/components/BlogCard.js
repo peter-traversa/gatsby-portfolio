@@ -17,12 +17,12 @@ const styles = {
 
 function SimpleCard(props) {
   const { classes } = props;
-  const image = <img src={props.blog.thumbnail} alt={'Blog Thumbnail'} ></img>
+  console.log(props.blog.thumbnail)
   return (
     <Card className={classes.card}>
       <CardContent>
         <h4>{props.blog.title}</h4>
-        <img src={props.blog.thumbnail} alt={'Blog Thumbnail'} width={image.width > '2px' ? '100%' : '0'}></img>
+        {props.blog.thumbnail.includes('referrerSource') ? null : <img src={props.blog.thumbnail} alt={'Blog Thumbnail'} width={'100%'}></img>}
         <h6>Published{"  "}{props.blog.pubDate}</h6>
         <Button variant="contained" href={props.blog.link} target="_blank" rel="noopener noreferrer"className={classes.button}>
         Medium Link
