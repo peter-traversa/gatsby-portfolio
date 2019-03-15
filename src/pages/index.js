@@ -1,5 +1,6 @@
 import React from "react";
 import Helmet from "react-helmet";
+import Header from '../components/Header';
 
 import Layout from '../components/layout';
 
@@ -16,13 +17,14 @@ class Homepage extends React.Component {
             <Layout>
                 <Helmet title={siteTitle} />
                 <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css"></link>
+                <Header />
                 <section id="one" className="main style1">
                     <div className="grid-wrapper">
                         <div className="col-6">
                             <header className="major">
                                 <h2>A shorthand account of my journey into code</h2>
                             </header>
-                            <p>I'd always gravitated toward client-facing roles over the course of my career. I enjoy working with people to find common solutions and thrive in a social environment. When I was working at a startup in an Operations role, I had the opportunity to work with our Software Engineering team on our client-side application. Helping to develop the application, albeit on the design side, inspired me to create simple, intuitive, and client-friendly software. I decided to begin my coding journey at the Flatiron School.</p>
+                            <p>I have always gravitated toward client-facing roles over the course of my career. I enjoy working with people to find common solutions and thrive in a social environment. When I was working at a startup in an Operations role, I had the opportunity to work with our Software Engineering team on our client-side application. Helping to develop the application, albeit on the design side, inspired me to create simple, intuitive, and client-friendly software. I decided to begin my coding journey at the Flatiron School.</p>
                         </div>
                         <div className="col-6">
                             <span className="image fit"><img src={pic01} alt="" /></span>
@@ -44,8 +46,8 @@ class Homepage extends React.Component {
                         </div>
                         <div className='col-6'>
                             <header className="major">
-                                <h2>Lorem ipsum dolor adipiscing<br />
-                                amet dolor consequat</h2>
+                                <h2>My unending journey and<br />
+                                the tech I'm using on the way</h2>
                             </header>
                             <p>Adipiscing a commodo ante nunc accumsan interdum mi ante adipiscing. A nunc lobortis non nisl amet vis volutpat aclacus nascetur ac non. Lorem curae eu ante amet sapien in tempus ac. Adipiscing id accumsan adipiscing ipsum.</p>
                             <p>Blandit faucibus proin. Ac aliquam integer adipiscing enim non praesent vis commodo nunc phasellus cubilia ac risus accumsan. Accumsan blandit. Lobortis phasellus non lobortis dit varius mi varius accumsan lobortis. Blandit ante aliquam lacinia lorem lobortis semper morbi col faucibus vitae integer placerat accumsan orci eu mi odio tempus adipiscing adipiscing adipiscing curae consequat feugiat etiam dolore.</p>

@@ -1,7 +1,6 @@
 import React from "react";
 import "../assets/scss/main.scss";
 
-import Header from "./Header";
 import Footer from "./Footer";
 import Navbar from "./Navbar";
 
@@ -31,7 +30,6 @@ class Template extends React.Component {
         return (
             <div className={`body ${this.state.loading}`}>
                 <Navbar />
-                <Header />
                 {children}
                 <Footer />
             </div>
