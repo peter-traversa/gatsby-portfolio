@@ -26,7 +26,7 @@ class BlogPage extends React.Component {
           </div>
           <div id="blog-page" className='grid-wrapper' >
             {!this.state.blogs ? <h1>Cannot display recent blogs</h1> : this.state.blogs.map((blog, idx) =>
-              <div className='col-3' key={idx} >
+              <div className='col-3 blog-card' key={idx} margin={'10px'} >
                 <BlogCard key={idx} blog={blog} />
               </div>
             )}
