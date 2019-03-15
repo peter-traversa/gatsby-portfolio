@@ -1,5 +1,6 @@
 import React from "react";
 import Helmet from "react-helmet";
+import Header from '../components/Header';
 
 import Layout from '../components/layout';
 
@@ -16,6 +17,7 @@ class Homepage extends React.Component {
             <Layout>
                 <Helmet title={siteTitle} />
                 <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css"></link>
+                <Header />
                 <section id="one" className="main style1">
                     <div className="grid-wrapper">
                         <div className="col-6">
