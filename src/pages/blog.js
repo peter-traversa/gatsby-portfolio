@@ -21,16 +21,18 @@ class BlogPage extends React.Component {
     return (
       <>
         <Navbar />
+        <div className='blog-page-background' >
           <div id="blog-title">
             <h1>Recent Blogs</h1>
           </div>
           <div id="blog-page" className='grid-wrapper' >
             {!this.state.blogs ? <h1>Cannot display recent blogs</h1> : this.state.blogs.map((blog, idx) =>
-              <div className='col-3 blog-card' key={idx} margin={'10px'} >
+              <div className='col-3 blog-card' key={idx} >
                 <BlogCard key={idx} blog={blog} />
               </div>
             )}
           </div>
+        </div>
         <Footer />
       </>
     )

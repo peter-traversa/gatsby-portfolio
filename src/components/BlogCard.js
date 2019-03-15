@@ -21,13 +21,9 @@ function SimpleCard(props) {
     <Card className={classes.card}>
       <CardContent align='center'>
         <h4>{props.blog.title}</h4>
-      </CardContent>
-      <CardContent className={classes.cardContent} >
         <h6>Published{"  "}{props.blog.pubDate}</h6>
-      </CardContent>
-      <CardContent className={classes.cardButton} >
         <Button variant="contained" href={props.blog.link} target="_blank" rel="noopener noreferrer"className={classes.button}>
-        Medium
+        Medium Link
         </Button>
       </CardContent>
     </Card>

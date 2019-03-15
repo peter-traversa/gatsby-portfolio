@@ -217,8 +217,12 @@
 
 	#blog-page {
 		background-color: darkcyan;
-		width: 100vw;
+		// width: 100vw;
 		padding: 1em;
+	}
+
+	.blog-page-background {
+		background-color: darkcyan;
 	}
 
 	.blog-card {
