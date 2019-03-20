@@ -4,7 +4,7 @@ import Header from '../components/Header';
 
 import Layout from '../components/layout';
 
-import Hackers from '../assets/images/hackers-get-a-job.gif';
+import Evolution from '../assets/images/coder-evolution.gif';
 import BookYourHeartOut from '../assets/images/BookYourHeartOut.png';
 import MemoryCardGame from '../assets/images/memorycardgame.png';
 import StreetSeen from '../assets/images/StreetSeen.png';
@@ -27,7 +27,7 @@ class Homepage extends React.Component {
                             <p>I have always gravitated toward client-facing roles over the course of my career. I enjoy working with people to find common solutions and thrive in a social environment. When I was working at a startup in an Operations role, I had the opportunity to work with our Software Engineering team on our client-side application. Helping to develop the application, albeit on the design side, inspired me to create simple, intuitive, and client-friendly software. I decided to begin my coding journey at the Flatiron School.</p>
                         </div>
                         <div className="col-6">
-                            <span className="image fit"><img src={Hackers} alt="Hackers Get a Job" /></span>
+                            <span className="image fit"><img src={Evolution} alt="Hackers Get a Job" /></span>
                         </div>
                     </div>
                 </section>
