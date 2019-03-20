@@ -50,8 +50,8 @@ class Homepage extends React.Component {
                                 the tech I'm using on the way</h2>
                             </header>
                             <p>I began my coding journey with Ruby and JavaScript. Ruby, because of its relative ease in readability, and the fact that it’s an OO language with a well-known framework (Rails) that makes setting up an application backend relatively painless, was the perfect beginner language for me. Working with Rails, I quickly became comfortable with ActiveRecord, SQL, MVC, and RESTful APIs.</p>
-                            <p>After the relative peace and calm of Ruby, it was soon time to move out to the wild, wild west of JavaScript. JS is where I truly learned to appreciate the art of coding. Because of the </p>
-                            <p></p>
+                            <p>After the relative peace and calm of Ruby, it was soon time to move out to the wild, wild west of JavaScript. JS is where I truly learned to appreciate the art of coding. I learned patience and honed my problem-solving skills. I've created multiple projects in React, this portfolio in Gatsby, and am working on a ground-up project with Node and Express.</p>
+                            <p>While I've learned a good amount about software engineering and code languages, I don't anticipate that my journey will end anytime soon. I'm excited for what I have yet to learn, in addition to sharpening my skills in the languages and frameworks in which I've already gained experience.</p>
                         </div>
                     </div>
                 </section>
