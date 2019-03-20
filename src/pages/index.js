@@ -4,8 +4,8 @@ import Header from '../components/Header';
 
 import Layout from '../components/layout';
 
-import Hackers from '../assets/images/hackers-get-a-job.gif';
-import BookYourHeartOut from '../assets/images/BookYourHeartOut.png';
+import Evolution from '../assets/images/coder-evolution.gif';
+import WorkInProgress from '../assets/images/work-in-progress.jpg';
 import MemoryCardGame from '../assets/images/memorycardgame.png';
 import StreetSeen from '../assets/images/StreetSeen.png';
 
@@ -24,10 +24,10 @@ class Homepage extends React.Component {
                             <header className="major">
                                 <h2>A shorthand account of my journey into code</h2>
                             </header>
-                            <p>I have always gravitated toward client-facing roles over the course of my career. I enjoy working with people to find common solutions and thrive in a social environment. When I was working at a startup in an Operations role, I had the opportunity to work with our Software Engineering team on our client-side application. Helping to develop the application, albeit on the design side, inspired me to create simple, intuitive, and client-friendly software. I decided to begin my coding journey at the Flatiron School.</p>
+                            <p>I have always gravitated toward client-facing roles over the course of my career. I enjoy working with people to find common solutions and thrive in a social environment. When I was working at a startup in an Operations role, I had the opportunity to work with our Software Engineering team on our client-side application. Helping to develop the application, albeit on the design side, inspired me to create simple, intuitive, and client-friendly software. I began my coding journey at the Flatiron School.</p>
                         </div>
                         <div className="col-6">
-                            <span className="image fit"><img src={Hackers} alt="Hackers Get a Job" /></span>
+                            <span className="image fit"><img src={Evolution} alt="Hackers Get a Job" /></span>
                         </div>
                     </div>
                 </section>
@@ -49,9 +49,9 @@ class Homepage extends React.Component {
                                 <h2>My unending journey and<br />
                                 the tech I'm using on the way</h2>
                             </header>
-                            <p>I began my coding journey with Ruby, an Object-Oriented language well-known for its relatively light learning curve and ease in reading. </p>
-                            <p>From there, JavaScript, React, etc.</p>
-                            <p>In the future, Node, Python, Rust, etc.</p>
+                            <p>I began my coding journey with Ruby and JavaScript. Ruby, because of its relative ease in readability, and the fact that it’s an OO language with a well-known framework (Rails) that makes setting up an application backend relatively painless, was the perfect beginner language for me. Working with Rails, I quickly became comfortable with ActiveRecord, SQL, MVC, and RESTful APIs.</p>
+                            <p>After the relative peace and calm of Ruby, it was soon time to move out to the wild, wild west of JavaScript. JS is where I truly learned to appreciate the art of coding. I learned patience and honed my problem-solving skills. I've created multiple projects in React, this portfolio in Gatsby, and am working on a ground-up project with Node and Express.</p>
+                            <p>While I've learned a good amount about software engineering and code languages, I don't anticipate that my journey will end anytime soon. I'm excited for what I have yet to learn, in addition to sharpening my skills in the languages and frameworks in which I've already gained experience.</p>
                         </div>
                     </div>
                 </section>
@@ -74,19 +74,19 @@ class Homepage extends React.Component {
                             </ul>
                         </div>
                         <div className="col-4">
+                            <span className="image fit"><img src={WorkInProgress} alt="Book Your Heart Out Cover Page" /></span>
+                            <h3>Unique Inventory</h3>
+                            <p>A React application built from the ground up to store a simple inventory for a small store or collector. Webpack, babel, etc. configured from the ground up.</p>
+                            <ul className="actions">
+                                <li><a href="https://github.com/peter-traversa/unique-inventory" target="_blank" rel="noopener noreferrer" className="button">GitHub Link</a></li>
+                            </ul>
+                        </div>
+                        <div className="col-4">
                             <span className="image fit"><img src={MemoryCardGame} alt="" /></span>
                             <h3>Memory Card Game</h3>
                             <p>A Vanilla JavaScript application memory game with multiple card decks.</p>
                             <ul className="actions">
                                 <li><a href="https://github.com/Jessicalong627/herculesGameFrontend" target="_blank" rel="noopener noreferrer" className="button">GitHub Link</a></li>
-                            </ul>
-                        </div>
-                        <div className="col-4">
-                            <span className="image fit"><img src={BookYourHeartOut} alt="Book Your Heart Out Cover Page" /></span>
-                            <h3>Book Your Heart Out</h3>
-                            <p>A Ruby on Rails Application for Actors and Bookers to create bookings and schedule appointments.</p>
-                            <ul className="actions">
-                                <li><a href="https://github.com/peter-traversa/actors-roles-producers-market" target="_blank" rel="noopener noreferrer" className="button">GitHub Link</a></li>
                             </ul>
                         </div>
                     </div>

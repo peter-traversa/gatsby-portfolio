@@ -17,7 +17,6 @@ const styles = {
 
 function SimpleCard(props) {
   const { classes } = props;
-  console.log(props.blog.thumbnail)
   return (
     <Card className={classes.card}>
       <CardContent>
