@@ -4,7 +4,7 @@ import Header from '../components/Header';
 
 import Layout from '../components/layout';
 
-import pic01 from '../assets/images/pic01.jpg';
+import Hackers from '../assets/images/hackers-get-a-job.gif';
 import BookYourHeartOut from '../assets/images/BookYourHeartOut.png';
 import MemoryCardGame from '../assets/images/memorycardgame.png';
 import StreetSeen from '../assets/images/StreetSeen.png';
@@ -27,7 +27,7 @@ class Homepage extends React.Component {
                             <p>I have always gravitated toward client-facing roles over the course of my career. I enjoy working with people to find common solutions and thrive in a social environment. When I was working at a startup in an Operations role, I had the opportunity to work with our Software Engineering team on our client-side application. Helping to develop the application, albeit on the design side, inspired me to create simple, intuitive, and client-friendly software. I decided to begin my coding journey at the Flatiron School.</p>
                         </div>
                         <div className="col-6">
-                            <span className="image fit"><img src={pic01} alt="" /></span>
+                            <span className="image fit"><img src={Hackers} alt="Hackers Get a Job" /></span>
                         </div>
                     </div>
                 </section>
@@ -49,9 +49,9 @@ class Homepage extends React.Component {
                                 <h2>My unending journey and<br />
                                 the tech I'm using on the way</h2>
                             </header>
-                            <p>Adipiscing a commodo ante nunc accumsan interdum mi ante adipiscing. A nunc lobortis non nisl amet vis volutpat aclacus nascetur ac non. Lorem curae eu ante amet sapien in tempus ac. Adipiscing id accumsan adipiscing ipsum.</p>
-                            <p>Blandit faucibus proin. Ac aliquam integer adipiscing enim non praesent vis commodo nunc phasellus cubilia ac risus accumsan. Accumsan blandit. Lobortis phasellus non lobortis dit varius mi varius accumsan lobortis. Blandit ante aliquam lacinia lorem lobortis semper morbi col faucibus vitae integer placerat accumsan orci eu mi odio tempus adipiscing adipiscing adipiscing curae consequat feugiat etiam dolore.</p>
-                            <p>Adipiscing a commodo ante nunc accumsan interdum mi ante adipiscing. A nunc lobortis non nisl amet vis volutpat aclacus nascetur ac non. Lorem curae eu ante amet sapien in tempus ac. Adipiscing id accumsan adipiscing ipsum.</p>
+                            <p>I began my coding journey with Ruby, an Object-Oriented language well-known for its relatively light learning curve and ease in reading. </p>
+                            <p>From there, JavaScript, React, etc.</p>
+                            <p>In the future, Node, Python, Rust, etc.</p>
                         </div>
                     </div>
                 </section>
