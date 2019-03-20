@@ -5,7 +5,7 @@ import Header from '../components/Header';
 import Layout from '../components/layout';
 
 import Evolution from '../assets/images/coder-evolution.gif';
-import BookYourHeartOut from '../assets/images/BookYourHeartOut.png';
+import WorkInProgress from '../assets/images/work-in-progress.jpg';
 import MemoryCardGame from '../assets/images/memorycardgame.png';
 import StreetSeen from '../assets/images/StreetSeen.png';
 
@@ -49,9 +49,9 @@ class Homepage extends React.Component {
                                 <h2>My unending journey and<br />
                                 the tech I'm using on the way</h2>
                             </header>
-                            <p>I began my coding journey with Ruby, an Object-Oriented language well-known for its relatively light learning curve and ease in reading. </p>
-                            <p>From there, JavaScript, React, etc.</p>
-                            <p>In the future, Node, Python, Rust, etc.</p>
+                            <p>I began my coding journey with Ruby and JavaScript. Ruby, because of its relative ease in readability, and the fact that it’s an OO language with a well-known framework (Rails) that makes setting up an application backend relatively painless, was the perfect beginner language for me. Working with Rails, I quickly became comfortable with ActiveRecord, SQL, MVC, and RESTful APIs.</p>
+                            <p>After the relative peace and calm of Ruby, it was soon time to move out to the wild, wild west of JavaScript. JS is where I truly learned to appreciate the art of coding. Because of the </p>
+                            <p></p>
                         </div>
                     </div>
                 </section>
@@ -74,19 +74,19 @@ class Homepage extends React.Component {
                             </ul>
                         </div>
                         <div className="col-4">
+                            <span className="image fit"><img src={WorkInProgress} alt="Book Your Heart Out Cover Page" /></span>
+                            <h3>Unique Inventory</h3>
+                            <p>A React application built from the ground up to store a simple inventory for a small store or collector. Webpack, babel, etc. configured from the ground up.</p>
+                            <ul className="actions">
+                                <li><a href="https://github.com/peter-traversa/unique-inventory" target="_blank" rel="noopener noreferrer" className="button">GitHub Link</a></li>
+                            </ul>
+                        </div>
+                        <div className="col-4">
                             <span className="image fit"><img src={MemoryCardGame} alt="" /></span>
                             <h3>Memory Card Game</h3>
                             <p>A Vanilla JavaScript application memory game with multiple card decks.</p>
                             <ul className="actions">
                                 <li><a href="https://github.com/Jessicalong627/herculesGameFrontend" target="_blank" rel="noopener noreferrer" className="button">GitHub Link</a></li>
-                            </ul>
-                        </div>
-                        <div className="col-4">
-                            <span className="image fit"><img src={BookYourHeartOut} alt="Book Your Heart Out Cover Page" /></span>
-                            <h3>Book Your Heart Out</h3>
-                            <p>A Ruby on Rails Application for Actors and Bookers to create bookings and schedule appointments.</p>
-                            <ul className="actions">
-                                <li><a href="https://github.com/peter-traversa/actors-roles-producers-market" target="_blank" rel="noopener noreferrer" className="button">GitHub Link</a></li>
                             </ul>
                         </div>
                     </div>
