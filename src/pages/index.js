@@ -57,7 +57,7 @@ class Homepage extends React.Component {
                     </div>
                 </section>
 
-                <section id="three" className="main style1 special">
+                <section id="recent-projects" className="main style1 special">
                     <div className="grid-wrapper">
                         <div className="col-12">
                             <header className="major">
