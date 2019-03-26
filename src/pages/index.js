@@ -17,6 +17,7 @@ class Homepage extends React.Component {
             <Layout>
                 <Helmet title={siteTitle} />
                 <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css"></link>
+                <link rel="icon" type="image/png" href="favicon.ico" sizes="16x16" />
                 <Header />
                 <section id="one" className="main style1">
                     <div className="grid-wrapper">
