@@ -9,6 +9,9 @@ class Header extends React.Component {
                     <h1>I'm <strong>Peter Traversa</strong>, a Full-Stack Web Developer based in New York City</h1>
                     <p>I'm an avid long-distance runner, reader, and lover of New York City{' '}<br />
                     and I bring that same level of passion to code.</p>
+                    <ul className="actions">
+                        <li><a href="#three" className="button scrolly">My Recent Projects</a></li>
+                    </ul>
                 </div>
             </section>
         )
