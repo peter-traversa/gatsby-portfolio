@@ -46,7 +46,7 @@ class Homepage extends React.Component {
                         </div>
                         <div className='col-6'>
                             <header className="major">
-                                <h2>My unending journey and<br />
+                                <h2>My unending journey and{' '}<br />
                                 the tech I'm using on the way</h2>
                             </header>
                             <p>I began my coding journey with Ruby and JavaScript. Ruby, because of its relative ease in readability, and the fact that it’s an OO language with a well-known framework (Rails) that makes setting up an application backend relatively painless, was the perfect beginner language for me. Working with Rails, I quickly became comfortable with ActiveRecord, SQL, MVC, and RESTful APIs.</p>
