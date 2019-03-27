@@ -25,7 +25,7 @@ class Homepage extends React.Component {
                             <header className="major">
                                 <h2>A shorthand account of my journey into code</h2>
                             </header>
-                            <p>I have always gravitated toward client-facing roles over the course of my career. I enjoy working with people to find common solutions and thrive in a social environment. When I was working at a startup in an Operations role, I had the opportunity to work with our Software Engineering team on our client-side application. Helping to develop the application, albeit on the design side, inspired me to create simple, intuitive, and client-friendly software. I began my coding journey at the Flatiron School.</p>
+                            <p>I have always gravitated toward client-facing roles over the course of my career. I enjoy working with people to find common solutions and thrive in a social environment. When I was working at a startup in an Operations role, I had the opportunity to work with our Software Engineering team on our client-side application. Helping to design the application inspired me to create simple, intuitive, and client-friendly software. I began my coding journey at the Flatiron School.</p>
                         </div>
                         <div className="col-6">
                             <span className="image fit"><img src={Evolution} alt="Hackers Get a Job" /></span>
